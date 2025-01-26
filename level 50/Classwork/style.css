@@ -1,0 +1,10 @@
+.custom-link {
+    color: red; 
+    text-decoration: none; 
+}
+
+.custom-link:hover {
+    color: green; 
+    text-decoration: underline; 
+    text-decoration-color: black; 
+}

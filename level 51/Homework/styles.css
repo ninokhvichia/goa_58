@@ -1,0 +1,41 @@
+.ordered-list {
+    list-style-type: decimal;
+    padding-left: 20px; 
+}
+
+.ordered-list li {
+    color: #4CAF50; 
+    background-color: #f0f0f0; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    border-radius: 5px;
+}
+
+.ordered-list li::marker {
+    color: red; 
+    font-weight: bold; 
+}
+
+.unordered-list {
+    list-style-type: disc; 
+    padding-left: 40px; 
+    text-align: center; 
+}
+
+.unordered-list li {
+    padding: 10px; 
+    background-color: #e0e0e0; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.unordered-list li:hover {
+    background-color: #2196F3; 
+    color: white; 
+}
+
+.unordered-list li:nth-child(3) {
+    background-color: #FFEB3B; 
+}

@@ -1,0 +1,37 @@
+/* Google Fonts-ის იმპორტი */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: normal;  
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: black;
+}
+
+nav ul li a:hover {
+    color: yellow; 
+    text-decoration: line-through;  
+    text-decoration-color: black; 
+}
+
+nav ul li a:active {
+    color: black; 
+    text-decoration: line-through;
+    text-decoration-color: yellow;  
+}
