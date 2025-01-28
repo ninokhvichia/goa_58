@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    padding-top: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.main-div {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Karla", serif;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 15px;
+}
+
+.paragraph1 {
+    font-family: "Karla", serif;
+    font-weight: 600;
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 8px;
+}
+
+.paragraph2, .paragraph3 {
+    font-family: "Karla", serif;
+    color: hsl(218, 22%, 67%);
+}
+
+.main1-div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.info1 {
+    background-color: hsl(179, 62%, 43%);
+    width: 290px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.h4-1 {
+    font-family: "Karla", serif;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.paragraph4 {
+    font-family: "Karla", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.paragraph5 {
+    font-family: "Karla", serif;
+    font-weight: 700;
+    color: #52C5C7;
+    margin-bottom: 15px;
+}
+
+.paragraph6 {
+    font-family: "Karla", serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: "Karla", serif;
+    background-color: hsl(71, 73%, 54%);
+    width: 245px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: hsl(71, 73%, 48%);
+}
+
+.info2 {
+    width: 290px;
+    padding: 25px;
+    background-color: #49BEBD;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.h4-2 {
+    font-family: "Karla", serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #AEECF0;
+    margin-bottom: 8px;
+}

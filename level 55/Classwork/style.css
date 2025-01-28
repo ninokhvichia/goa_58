@@ -1,0 +1,16 @@
+parent{
+    width:500px;
+    height:500px;
+    border:2px solid rgb(16, 30, 228);
+    background-color: aquamarine;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.child{
+    border:3px  solid black;
+    width:100px;
+    height:100px;
+    background-color: rgb(231, 10, 113);
+}
